@@ -1,0 +1,52 @@
+.htmlClassFull {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.clickDiv {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#navBarList a {
+    font-size: 1.05em;
+}
+#dLink,
+#starred {
+    border-bottom: solid;
+    border-color: #2196F3;
+    -o-transition: .6s;
+    -ms-transition: .6s;
+    -moz-transition: .6s;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+#dLink:hover,
+#starred:hover {
+    -o-transition: .6s;
+    -ms-transition: .6s;
+    -moz-transition: .6s;
+    -webkit-transition: .6s;
+    transition: .6s;
+    background-color: #2196F3;
+    color: white;
+}
+#starred {
+    border-color: #00E676;
+}
+#starred:hover {
+    background-color: #00E676;
+}
+.navbar-brand {
+    font-size: 1.2em;
+}
+#logoImg {
+    text-align: center;
+}

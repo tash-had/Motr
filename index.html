@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="htmlClassFull">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Motr | Motivate Productivity.</title>
+    <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/fakeLoader.css">
+    <link rel="stylesheet" href="css/social-share-kit.css" type="text/css">
+    <link rel="stylesheet" href="css/vex.css" />
+    <link rel="stylesheet" href="css/vex-theme-os.css" />
+    <link rel="stylesheet" href="css/vex-theme-wireframe.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+    <div class="ssk-sticky ssk-left ssk-center ssk-lg">
+        <a href="" class="ssk ssk-facebook"></a>
+        <a href="" class="ssk ssk-twitter"></a>
+        <a href="" class="ssk ssk-google-plus"></a>
+        <a href="" class="ssk ssk-tumblr"></a>
+        <a href="" class="ssk ssk-email"></a>
+    </div>
+
+    <div class="clickDiv" onclick="location.reload();"></div>
+    <div class="fakeloader"></div>
+
+    <nav class="navbar navbar-default navbar-fixed-bottom" id="navBar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Motr | Motivate Productivity
+  				</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul id="navBarList" class="nav navbar-nav">
+                    <li>
+                        <a href="javascript:void(0)" onclick="aboutClick();">About</a>
+                    </li>
+                    <li>
+                        <a href="http://tash-had.com">Contact</a>
+                    </li>
+                    <li>
+                        <a id="starred" target="_blank" href="https://www.reddit.com/r/GetMotivated/comments/2xc947/text_soon_i_will_be_gone_forever_but_thats_okay/">Starred</a>
+                    </li>
+                    <li>
+                        <a id="dLink" href="#" download>Download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fakeLoader.min.js"></script>
+    <script type="text/javascript">
+        $(".fakeloader").fakeLoader({
+            timeToHide: 800,
+            bgColor: "#2196F3",
+            spinner: "spinner6"
+        });
+    </script>
+    <script src="js/vex.combined.min.js"></script>
+    <script>
+        vex.defaultOptions.className = 'vex-theme-os';
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/social-share-kit.min.js"></script>
+</body>
+
+</html>
