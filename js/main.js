@@ -1,4 +1,4 @@
-var redditUrl = "https://www.reddit.com/r/motrMotivation/new/.json?limit=90";
+var redditUrl = "REDDIT_API_URL";
 var bitlyUrl = "BITLY_API_URL";
 var imagesRec = [];
 var shortImageLink;
